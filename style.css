@@ -1,0 +1,91 @@
+* {
+    overflow: hidden;
+}
+
+
+@font-face {
+    font-family: "myfont";
+    src: url(fonts/AlumniSansCollegiateOne-Regular.ttf);
+}
+@font-face {
+    font-family: "myfont2";
+    src: url(fonts/RubikGemstones-Regular.ttf);
+}
+body {
+    background-image: url(galery/vacation-island-scenery-palm-trees-digital-art-hd-wallpaper-uhdpaper.com-336@1@m.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/*პირველი კონტეინერი სელექტორი რომელიც გამოყენებულია კონტენტის გასაცენტრად*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+/*მეორე კონტეინერის სელექტორი რომელიც გამოყენებულია კონტენტის შიგთავსის მოსათავსებლად*/
+.condatinerblock {
+    width: 400px;
+    height: 600px;
+    margin-top: 30px;
+}
+/*კონტეინერში ჩასმული img ტეგის სელექტორი*/
+.containerimg {
+    width: 70px;
+    height: 70px;
+}
+/*კონტეინერში ჩასმული paragraph ტეგის სელექტორი*/
+.containerparagraph {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: "myfont";
+    margin-bottom: 10px;
+}
+/*კონტეინერში მოთავსებული input ტეგის სექტორი*/
+.containerinput {
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: rgb(0, 0, 0);
+    background: transparent;
+    padding-top: 20px;
+}
+/*input-ის შვილობილი ელემენტების სელექტორები*/
+input[type=text], [type=password] {
+    font-size: 20px;
+    font-family: "myfont2";
+}
+input[type=submit] {
+    width: 400px;
+    height: 50px;
+    border-radius: 40px;
+    background: transparent;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "myfont2";
+    margin-bottom: 20px;
+}
+input[type=text]::-webkit-input-placeholder {
+    color: black;
+}
+input[type=password]::-webkit-input-placeholder {
+    color: black;
+}
+/*Forgot password selector*/
+.Forgotpassword {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "myfont2";
+}
+/*img icon input elemeny*/
+.icon {
+    position: relative;
+    left: 366px;
+    bottom: 40px;
+    
+}
